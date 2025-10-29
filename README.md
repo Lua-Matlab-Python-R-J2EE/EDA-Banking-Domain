@@ -34,3 +34,6 @@ Anonymized transactional and behavioral data may be sourced from financial analy
 
 - Conduct a small-scale trial run based on Phase 1 insights.
 - Apply statistical techniques (e.g., hypothesis testing) to evaluate the effectiveness of initial assumptions and market segmentation choices.
+
+## Note:
+Data files are not included.
