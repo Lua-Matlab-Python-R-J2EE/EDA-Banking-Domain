@@ -1,0 +1,37 @@
+
+Table "avg_transactions_after_campaign" {
+  "campaign_date" text
+  "control_group_avg_tran" double [default: NULL]
+  "test_group_avg_tran" double [default: NULL]
+}
+
+Table "credit_profiles" {
+  "cust_id" int [default: NULL]
+  "credit_score" int [default: NULL]
+  "credit_utilisation" double [default: NULL]
+  "outstanding_debt" int [default: NULL]
+  "credit_inquiries_last_6_months" int [default: NULL]
+  "credit_limit" int [default: NULL]
+}
+
+Table "customers" {
+  "cust_id" int [default: NULL]
+  "name" text
+  "gender" text
+  "age" int [default: NULL]
+  "location" text
+  "occupation" text
+  "annual_income" int [default: NULL]
+  "marital_status" text
+}
+
+Table "transactions" {
+  "tran_id" int [default: NULL]
+  "cust_id" int [default: NULL]
+  "tran_date" date [default: NULL]
+  "tran_amount" int [default: NULL]
+  "platform" varchar(255) [default: NULL]
+  "product_category" varchar(255) [default: NULL]
+  "payment_type" varchar(255) [default: NULL]
+}
+
