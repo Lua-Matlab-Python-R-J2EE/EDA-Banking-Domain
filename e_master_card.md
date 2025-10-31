@@ -98,5 +98,4 @@ Generated using [dbdiagram.io](https://dbdiagram.io).
 
 ---
 
-**Author:** *Database schema documentation auto-generated for GitHub visibility.*  
 
